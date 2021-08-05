@@ -1,0 +1,39 @@
+{
+    "name": "patelparixit07/users-list",
+    "description": "List Users from external REST API Service.",
+    "homepage": "https://github.com/patelparixit07/users-list",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Parixit Patel",
+            "email": "patelparixit07@gmail.com"
+        }
+    ],
+    "keywords": [
+        "wordpress",
+        "plugin",
+        "users list",
+        "rest api service"
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2",
+        "composer/installers": "~1.0"
+    },
+    "require-dev": {
+        "php": ">=7.2",
+        "phpunit/phpunit": "7.*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:patelparixit07/users-list.git"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.4.2"
+        }
+    }
+}
