@@ -3,7 +3,7 @@
 License: GPL-2.0+ License URI: <http://www.gnu.org/licenses/gpl-2.0.txt>
 
 # Purpose
-The main purpose of this plugin is to explore WordPress plugin development and the WordPress API. The plugin was created using Object Oriented Constructs, and tested using PHPUnit. One can install the plugin using a composer package or manually.
+The main purpose of this plugin is to explore WordPress plugin development and the WordPress API. The plugin was created using Object Oriented Constructs, and tested using PHPUnit. One can install the plugin by cloning this repository.
 
 # Requirements
 **PHP Version:** >=7.2
@@ -13,9 +13,9 @@ The main purpose of this plugin is to explore WordPress plugin development and t
 **PHPUnit:** 7.* 
 
 # Description
-A simple plugin demo to list users from *external REST API Service* using object oriented constructs.This plugin listing users on custom endpoint that Wordpress doesn't recognise as a standard URL, like a post, permalink or so. 
+A simple plugin demo to list users from *external REST API Service* using object oriented constructs.This plugin list users on custom endpoint that Wordpress doesn't recognise as a standard URL, like a post, permalink or so. 
 
-Basically it uses Wordpress *Rewrite API* to create custom endpoint and *HTTP API* to get users from external service. Under the hood plugin also make the use of *Options API* - To  Store options on DB , *Settings API* - To add plugin settings page and *Transients API* -To cache users information.
+Basically it uses Wordpress *Rewrite API* to create custom endpoint and *HTTP API* to get users from external service. Under the hood plugin also make the use of *Options API* - To  store options on DB , *Settings API* - To add plugin settings page and *Transients API* -To cache users information.
 
 # Installation
 - Clone repository to the ```wp-content/plugins/``` directory of your wordpress installation
