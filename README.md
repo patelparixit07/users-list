@@ -8,7 +8,7 @@ The main purpose of this plugin is to explore WordPress plugin development and t
 # Requirements
 **PHP Version:** >=7.2
 
-**Wordpress:** ~5.7.2
+**Wordpress:** >=5.7.2
 
 **PHPUnit:** 7.* 
 
@@ -17,21 +17,13 @@ A simple plugin demo to list users from *external REST API Service* using object
 
 Basically it uses Wordpress *Rewrite API* to create custom endpoint and *HTTP API* to get users from external service. Under the hood plugin also make the use of *Options API* - To  Store options on DB , *Settings API* - To add plugin settings page and *Transients API* -To cache users information.
 
-# Installation Using Composer
-- Clone repository to the ```wp-content/plugins/``` directory of your wordpress installation OR update your root composer.json with following details:
+# Installation
+- Clone repository to the ```wp-content/plugins/``` directory of your wordpress installation
 ```
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/patelparixit07/users-list.git"
-    }
-  ],
-  "require": {
-    "patelparixit07/users-list": "dev-master"
-  }
+git clone git@github.com:patelparixit07/users-list.git
 ```
-- Run composer install
-- Activate the plugin through the *Plugins* menu in WordPress
+- Run ```composer install``` *(Inside `users-list` plugin folder)*
+- Activate the plugin through the **Plugins** menu in WordPress
 
 # Usage
 - Update plugin options from ```Settings => Users List```
